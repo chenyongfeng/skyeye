@@ -14,14 +14,14 @@
 	</parent>
 
 	<modules>
-		<module>skyeye-web</module>
+		<module>skyeye-entity</module>
 		<module>skyeye-dao</module>
 		<module>skyeye-service</module>
 		<module>skyeye-service-impl</module>
 		<module>skyeye-activiti</module>
 		<module>skyeye-redis</module>
-		<module>skyeye-entity</module>
 		<module>skyeye-quartz</module>
+		<module>skyeye-web</module>
 	</modules>
 
 	<properties>
@@ -303,7 +303,7 @@
 				</configuration>
 			</plugin>
 
-			<!--spring-boot打包 -->
+			<!--spring-boot打包
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -328,7 +328,7 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-
+-->
 			<!--打包跳过测试 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
